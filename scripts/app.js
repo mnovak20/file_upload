@@ -9,4 +9,4 @@
  * Main module of the application.
  */
 angular
-  .module('videoUploadApp', ['ui.bootstrap','ngFileUpload']);
+  .module('videoUploadApp', ['ui.bootstrap']);
