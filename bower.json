@@ -1,0 +1,26 @@
+{
+  "name": "video_upload",
+  "authors": [
+    "Mike <mnovak419@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "jquery-ui": "~1.11.4",
+    "blueimp-file-upload": "jquery-file-upload#~9.11.2",
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.7",
+    "ng-file-upload": "~9.1.2"
+  }
+}

@@ -1,0 +1,17 @@
+
+<div>
+			<span ngf-select 
+						ng-model="fileToUpload" 
+						class="btn btn-success fileinput-button" 
+						ng-class="{disabled: disabled}"
+						accept="video/*"
+						ngf-pattern="'video/*'"
+			>
+          <i class="glyphicon glyphicon-plus"></i>
+          <span>Select a file to upload</span>
+          <!-- <input type="file" name="files[]"> -->
+      </span>
+      {{fileToUpload.name}}
+      <div ng-bind="progressPercentage"></div>
+      <button class="btn btn-primary" ng-click="upload(fileToUpload)">Upload</button>
+</div>
